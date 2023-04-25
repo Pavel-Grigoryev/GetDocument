@@ -1,0 +1,20 @@
+$primary: #89c988;
+$secondary: #979797;
+$success: #008f58;
+$info: #0085dd;
+$warning: #e05a00;
+$danger: #c7003c;
+
+$spacer: 1rem;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 3,
+        6: $spacer * 3.75,
+        7: $spacer * 6.25,
+);
+
+@import '~bootstrap/scss/bootstrap';
